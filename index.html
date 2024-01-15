@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> My First Web App</title>
+
+
+      <!-- Bootstrap cdn -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+ 
+      <!-- Font-awesome cdn -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+ 
+<body>
+
+    <!-- nav -->
+    <nav class="navbar  navbar-expand-lg bg-danger pt-5 " style="float: right; padding-right: 5%;"   >
+       <div class="container container-fluid">
+              <a class="navbar-brand text-white" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+
+                 <div class="collapse navbar-collapse " id="navbarNav">
+
+                     <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                             <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">Features</a>
+                        </li>
+ 
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">Pricing</a>
+                        </li>
+  
+                        <li class="nav-item ">
+                          <a class="nav-link disabled text-secondary" aria-disabled="true">Disabled</a>
+                        </li>
+
+                     </ul>
+                 </div>
+       </div>
+     </nav>
+
+        <!-- hero section -->
+        <section id="hero" class="bg-danger pt-5 pb-5">
+          <div class="container container-fluid">
+             <div class="row d-flex align-items-center">
+
+                  <div class="col-6 text-white">
+                      <h2 class="pb-5" style="font-size: 47px;">Meet new and interesting dogs nearby.</h2>
+                      <div class="btn btn-dark btn-lg" style="margin-right: 20px;">Download</div>
+                      <div class="btn btn-outline-light">Download</div>
+                  </div>
+
+                  <div class="col-6">
+                      <img src="/Act1/img/iphone6.png" alt="" class="rounded mx-auto d-block" style="width: 50%; padding-top: 20%;">
+                  </div>
+              </div>
+          </div>
+        </section>
+
+          <!-- info section -->
+          <section id="info" class="pt-5 pb-5 bg-light">
+             <div class="container container-fluid text-center pb-5 pt-5">
+                <div class="row">
+
+                     <div class="feature-box col-4">
+                        <i class="fa-solid fa-heart fa-2x"></i>
+                        <h3 class="feature-title">Easy to use</h3>
+                        <p>lorem</p>
+                     </div>
+
+                     <div class="feature-box col-4">
+                        <i class="fa-solid fa-heart fa-2x"></i>
+                        <h3 class="feature-title">Easy to use</h3>
+                        <p>lorem</p>
+                     </div>
+ 
+                     <div class="feature-box col-4">
+                        <i class="fa-solid fa-heart fa-2x"></i>
+                        <h3 class="feature-title">Easy to use</h3>
+                        <p>lorem</p>
+                     </div>
+                 </div>
+             </div>
+          </section>
+   
+    <!-- testimonial section -->
+    <section id="testimonial" class="pb-5" style="background-color: rgb(245, 137, 104);">
+          <div class="container container-fluid pb-5">
+          <div class="row">
+          <div class="col-12">
+          <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner pb-5 pt-5">
+                    
+                    <div class="carousel-item active container text-center ">
+                       <h2 class="testimonial-text pb-5 text-white">I no longer have to sniff other dogs for love. I've found the hottest Corgi. on TinDog. Woof.</h2>
+                       <img src="/Act1/img/dog-img.jpg" style="width: 10%; "  class="rounded-circle" alt="...">
+                       <em class="text-white" style="margin-left: 15px;">Pebbles.New York</em>
+                    </div>
+
+                    <div class="carousel-item text-center ">
+                       <h2 class="testimonial-text pb-5 text-white">I no longer have to sniff other dogs for love. I've found the hottest Corgi. on TinDog. Woof.</h2>
+                       <img src="/Act1/img/lady-img.jpg" style="width:10%; " class="rounded-circle"  alt="...">
+                       <em class="text-white "  style="margin-left: 15px;">Pebbles.New York</em>
+                    </div>
+
+                    <div class="carousel-item text-center ">
+                       <h2 class="testimonial-text pb-5  text-white">I no longer have to sniff other dogs for love. I've found the hottest Corgi. on TinDog. Woof.</h2>
+                       <img src="/Act1/img/dog-img.jpg" style="width: 10%; " class="rounded-circle"  alt="...">
+                       <em class="text-white"  style="margin-left: 15px;">Pebbles.New York</em>
+                    </div>
+                </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                           <span class="visually-hidden">Previous</span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                           <span class="visually-hidden">Next</span>
+                        </button>
+          </div>
+          </div>
+          </div>
+          </div>
+
+              <!-- testimonial img -->
+              <div class="testimonial-img pb-5 pt-5">
+                <div class="container container-fluid">
+                  <div class="row">
+                     <div class="col-12 "></div>
+                     <img style="width: 15%; margin-left: 95px; margin-right: 110px;" src="/Act1/img/TechCrunch.png" alt="">
+                     <img style="width: 15%; margin-right: 110px;" src="/Act1/img/tnw.png" alt="">
+                     <img style="width: 15%; margin-right: 110px;" src="/Act1/img/bizinsider.png" alt="">
+                     <img style="width: 15%; margin-right: 95px;" src="/Act1/img/mashable.png" alt="">
+                  </div>
+                </div>
+              </div>
+    </section>
+
+    <!-- pricing section -->
+    <section id="pricing" class="pt-5 pb-5 text-center">
+      <div class="container contaier-fluid">
+        <div class="row">
+          <div class="col-12">
+               <h2> A Plan for Every Dog's Needs</h2>
+               <p class="pb-5">Simple and affordable price plans for you and your dog</p>
+
+            <div class="col-12">
+              <div class="card" style="width: 18rem; display: inline-block; margin-right: 45px;">
+                <img src="https://images.unsplash.com/photo-1610041518868-f9284e7eecfe?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q0hJSFVBSFVBfGVufDB8fDB8fHww" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chihuahua</h5>
+                </div>
+                  <ul class="list-group list-group-flush">
+                  <h2 class="list-group-item">Free</h2>
+                  <li class="list-group-item">5 Matches Per Day</li>
+                  <li class="list-group-item">10 Messages Per Day</li>
+                  <li class="list-group-item">Unlimited App Usage</li>
+                  <div class="btn btn-outline-dark">Sign Up</div>
+                </ul>
+              </div>
+ 
+                <div class="card" style="width: 18rem; display: inline-block; margin-right: 45px;">
+                  <img src="https://images.unsplash.com/photo-1628234506867-b9b1af67bc06?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGxhYnJhZG9yfGVufDB8fDB8fHww" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Labrador</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <h2 class="list-group-item">$49/mo</h2>
+                    <li class="list-group-item">Unlimited Matches</li>
+                    <li class="list-group-item">Unlimited Messages</li>
+                    <li class="list-group-item">Unlimited App Usage</li>
+                    <div class="btn btn-outline-dark">Sign Up</div>
+                  </ul>
+                  
+                  </div>
+
+                <div class="card" style="width: 18rem; display: inline-block; margin-right: 45px;">
+                  <img src="https://images.unsplash.com/photo-1512418641657-268c4fe2cd37?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFzdGlmZnxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Mastiff</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <h2 class="list-group-item">$99/mo</h2>
+                    <li class="list-group-item">Priority Listing</li>
+                    <li class="list-group-item">Unlimited Matches</li>
+                    <li class="list-group-item">Unlimited Messages</li>
+                    <li class="list-group-item">Unlimited App Usage</li>
+                    <div class="btn btn-outline-dark">Sign Up</div>
+                  </ul>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- cta section -->
+      <section id="cta" class="bg-danger pt-5 pb-5 text-center">
+        <div class="container container-fluid pb-5 pt-5">
+          <div class="row">
+            <div class="col-12">
+              <h1 class=" text-white pb-5">Find the True Love of Your Dog's Life Today. </h1>
+              <div class="btn btn-dark btn-lg" style="margin-right: 30px;">Download</div>
+              <div class="btn btn-outline-light">Download</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer section -->
+      <section id="footer" class="pt-5 pb-5 text-center">
+        <div class="container container-fluid">
+          <div class="row">
+            <div class="col-12" >
+              <img width="2.5%" style="margin-right: 25px;" src="https://cdn-icons-png.flaticon.com/128/1051/1051309.png" alt="">
+              <img width="2.5%" style="margin-right: 25px;" src="https://cdn-icons-png.flaticon.com/128/25/25347.png" alt="">
+              <img width="2.5%" style="margin-right: 25px;" src="https://cdn-icons-png.flaticon.com/128/1400/1400829.png" alt="">
+              <img width="2.5%" style="margin-right: 25px;" src="https://cdn-icons-png.flaticon.com/128/831/831357.png" alt="">
+              <p class="pt-3">&copy; Copyright 2018 TinDog | Jermin Mercado</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Bootstrap JavaScript cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
